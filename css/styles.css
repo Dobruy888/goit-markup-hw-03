@@ -82,6 +82,10 @@ body {
   line-height: 1.4;
   letter-spacing: 0.02em;
 }
+.title-info {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .site-nav .item + .item {
   margin-left: 50px;
 }
@@ -131,7 +135,8 @@ body {
 .hero-button {
   display: block;
   margin: 0 auto;
-
+  width: 200px;
+  height: 50px;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-family: inherit;
@@ -151,6 +156,10 @@ body {
 .box {
   display: flex;
 }
+.benefits .item {
+  width: 270px;
+}
+
 .benefits .item + .item {
   margin-left: 30px;
 }
@@ -215,7 +224,7 @@ body {
   margin-left: 30px;
 }
 .team-pic .title {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -233,7 +242,10 @@ body {
   background-color: var(--primary-white-color);
   border-radius: 0 0 4px 4px;
 }
-
+.team-info-title {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 /* Кнопки портфолио */
 .section-main {
   padding-top: 94px;
@@ -319,7 +331,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   display: inline-block;
 }
 .footer-section .inner {
